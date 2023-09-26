@@ -1,18 +1,47 @@
 
+html 
+{
+    
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+
+}    
 body
 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.5px;
-    color: rgb(9, 5, 59);    
+    color: rgb(9, 5, 59);   
+    background-image: url("https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: cover;
 }
 p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.5px;
     color: rgb(9, 5, 59);
+}
+.bad, .good
+{
+    display: inline;
+}
+blockquote
+{
+    width: 50%;
+    margin: 80px auto;
+    font-size: 160%;
+    background: grey;
+    border-left: 3px solid Firebrick;
+    padding-left: 30px; 
+}
+q
+{
+    font-style: italic;
 }
 a
 {
