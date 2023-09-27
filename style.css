@@ -11,10 +11,10 @@ body
     width: 90%;
     margin: 0 auto;
     font-size: 1.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.5px;
     color: rgb(9, 5, 59);   
-    background-image: url("https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU"); 
+    background-image: url("https://picsum.photos/id/85/1280/774"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
@@ -29,6 +29,15 @@ p
 .bad, .good
 {
     display: inline;
+    text-transform: uppercase;
+}
+.bad
+{
+    color: red;
+}
+.good
+{
+    color: green;
 }
 blockquote
 {
@@ -51,3 +60,69 @@ a:hover
 {
     color: rgb(9, 5, 59);
 }
+.villagers
+{
+    border-left: 3px solid blue;
+}
+.farmer
+{
+    border-left: 3px solid green;
+}
+header > h1
+{
+    background-color: yellow;
+}
+thead tr
+{
+    background-color: grey;
+}
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+ul {
+    display: inline-block;
+    width: fit-content;
+    margin: 30px;
+}
+li {
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    background-size: contain;
+    font-size: 18px;
+}
+ul li:nth-child(1) {
+    background-image: url('img/bien.png');
+}
+ul li:nth-child(2) {
+    background-image: url('img/mal.png');
+}
+ul li:nth-child(3) {
+    background-image: url('img/chat.png');
+}
+header p
+{
+    font-style: bold;
+}
+/* .flex-container {
+    display: inline-block;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.flex-container img {
+    flex-shrink: 0; 
+    margin: 10px; 
+}
+
+.flex-container p {
+    flex-grow: 1;   
+}
+img {
+    float: right; 
+    margin: 10px;
+} */
