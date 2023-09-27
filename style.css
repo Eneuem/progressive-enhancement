@@ -108,6 +108,15 @@ header p
 {
     font-style: bold;
 }
+/* .flex-container 
+{
+    display: block;
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+} */
+
 /* .flex-container {
     display: inline-block;
     justify-content: space-between; 
@@ -122,7 +131,9 @@ header p
 .flex-container p {
     flex-grow: 1;   
 }
-img {
+*/
+
+/* img {
     float: right; 
     margin: 10px;
-} */
+}  */
